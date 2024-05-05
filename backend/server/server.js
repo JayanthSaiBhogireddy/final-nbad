@@ -13,7 +13,9 @@ const ExpenseSchema = require("./models/ExpenseModel");
 let url = "mongodb+srv://jayanthsai8172:oGTKDSpHMQYVjRei@cluster0.7jjofgn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 const bcrypt = require("bcrypt");
-const port = 3002;
+//const port = 3002;
+const port = process.env.PORT || 3002; // Use the port specified by the environment variable or default to 3002
+const host = process.env.HOST || '0.0.0.0';
 
 app.use(cors());
 app.use(bodyParser.json());
