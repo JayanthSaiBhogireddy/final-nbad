@@ -180,4 +180,4 @@ function ConfigureBudgets() {
   );
 }
 
-export default ConfigureBudg
+export default ConfigureBudgets;

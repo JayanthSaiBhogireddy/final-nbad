@@ -119,4 +119,4 @@ const setLoggedIn = (flag) => {
   );
 }
 
-export default App
+export default App;

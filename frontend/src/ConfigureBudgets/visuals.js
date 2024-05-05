@@ -287,4 +287,4 @@ function Visuals() {
   );
 }
 
-export default Visu
+export default Visuals;

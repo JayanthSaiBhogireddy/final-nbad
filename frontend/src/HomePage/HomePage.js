@@ -221,4 +221,4 @@ function HomePage() {
     );
 }
 
-export default HomeP
+export default HomePage;
